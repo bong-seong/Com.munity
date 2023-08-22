@@ -13,11 +13,19 @@ public class MemberEntity {
     @GeneratedValue( strategy = GenerationType.IDENTITY )
     private int mno;
 
-    @Column private String mid;
+    @Column private String memail;
     @Column String mpwd;
     @Column String mname;
     @Column String mphone;
-    @Column String memail;
     @Column String mprofile;
     @Column String mgrade;
+
+    public MemberDto toDto () {
+        return MemberDto.builder()
+                .memail( this.memail )
+                .mname( this.mname )
+                .mphone( this.mphone )
+                .build();
+    }
+
 }

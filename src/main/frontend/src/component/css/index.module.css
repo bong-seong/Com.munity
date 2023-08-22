@@ -6,9 +6,9 @@ a{
 }
 
 @font-face {
-    font-family: 'PyeongChangPeace-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Regular.woff2') format('woff2');
-    font-weight: 300;
+    font-family: 'intelone-mono-font-family-regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -29,9 +29,8 @@ a{
 }
 
 .main_logo_text {
-    font-family: 'PyeongChangPeace-Regular';
+    font-family: 'intelone-mono-font-family-regular';
     font-size : 40px;
-    font-weight: 300;
 }
 
 .logo_parts{

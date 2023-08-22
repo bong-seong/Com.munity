@@ -1,0 +1,47 @@
+* {
+    padding : 0px ;
+    margin : 0px ;
+    font-family: 'SUIT-Regular';
+}
+
+a{
+    text-decoration : none;
+    color : black;
+}
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.signup_wrap{
+    width : 1200px;
+    margin : 50px auto;
+}
+
+.signup_title{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.signup_box{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.signup_box input {
+    height : 40px;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+}
+
+.signup_button{
+    height: 40px;
+    color : white;
+    border : none;
+    background-color : #ff8400;
+}
