@@ -1,0 +1,28 @@
+* { padding : 0px ; margin : 0px }
+
+a{
+    text-decoration : none;
+    color : black;
+}
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.menu_wrap{
+    border-top : solid 1px #eeeeee;
+    border-bottom : solid 1px #eeeeee;
+    padding: 20px 0px;
+}
+
+.menu_size_box{
+    width : 1200px;
+    margin : 0 auto;
+    display : flex;
+    justify-content: space-around;
+    font-family: 'SUIT-Regular';
+    font-size : 15px;
+}

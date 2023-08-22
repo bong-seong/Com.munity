@@ -1,0 +1,47 @@
+* { padding : 0px ; margin : 0px }
+
+a{
+    text-decoration : none;
+    color : black;
+}
+
+@font-face {
+    font-family: 'PyeongChangPeace-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Regular.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.top_main_box{
+    width : 1200px;
+    display : flex;
+    padding : 20px 0px;
+    margin : 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_logo_text {
+    font-family: 'PyeongChangPeace-Regular';
+    font-size : 40px;
+    font-weight: 300;
+}
+
+.logo_parts{
+    color : #ff8400;
+}
+
+
+.menu_box a{
+    color : #000000cc;
+    margin-left : 5px;
+    font-size : 15px;
+    font-family: 'SUIT-Regular';
+}
